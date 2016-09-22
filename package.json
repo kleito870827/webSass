@@ -1,0 +1,24 @@
+{
+  "name": "lake-tahoe-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass -w --include-path scss scss/application.scss css/application.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wordyallen/lake-tahoe-sass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wordyallen/lake-tahoe-sass/issues"
+  },
+  "homepage": "https://github.com/wordyallen/lake-tahoe-sass#readme",
+  "dependencies": {
+    "node-sass": "^3.10.0"
+  }
+}
